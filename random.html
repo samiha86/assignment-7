@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Prompt App</title>
+</head>
+<body>
+
+    <h1>AI Prompt Generator</h1>
+
+    <form action="/ai" method="POST">
+        <textarea
+            name="prompt"
+            rows="8"
+            cols="50"
+            placeholder="Write your prompt here..."
+            required>
+        </textarea>
+
+        <br><br>
+
+        <button type="submit">
+            Generate
+        </button>
+    </form>
+
+    <hr>
+
+    <h2>Result</h2>
+
+    <div>
+        RESULT
+    </div>
+
+</body>
+</html>
